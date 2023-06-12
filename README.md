@@ -6,4 +6,4 @@ In this notebook ([mc_cgbp_example.ipynb](mc_cgbp_example.ipynb)) we show how to
 
 The following figure directly compares the results of BP-based PIGNN and CGBP-based PIGNN on a 3-regular graph with 100 nodes
 
-![figure](https://github.com/PengTao-HUST/CGBP/blob/master/image/example.pdf?raw=true)
+![figure](https://github.com/PengTao-HUST/CGBP/blob/master/image/example.jpg?raw=true)
