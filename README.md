@@ -12,7 +12,7 @@ Simply run
 ```
 python xxx.py
 ```
-in the this directory and the results will be saved in the [results](https://github.com/PengTao-HUST/CGBP/tree/master/results) folder.
+in this directory and the results will be saved in the [results](https://github.com/PengTao-HUST/CGBP/tree/master/results) folder.
 
 ## Highlighted results
 ### 1. Max cut
