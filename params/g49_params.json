@@ -1,0 +1,12 @@
+{
+  "g49": {
+    "optimizer": "adam",
+    "drop": 0.2,
+    "dscale": 1.0,
+    "embed_only": true,
+    "cgbp_epoch": 8000,
+    "lr": 0.005,
+    "random_pick": true,
+    "weight_decay": 0.01
+  }
+}

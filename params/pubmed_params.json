@@ -1,0 +1,12 @@
+{
+  "pubmed": {
+    "optimizer": "adam",
+    "drop": 0.3,
+    "dscale": 10.0,
+    "embed_only": false,
+    "cgbp_epoch": 8000,
+    "lr": 0.00001,
+    "random_pick": true,
+    "weight_decay": 0.0
+  }
+}

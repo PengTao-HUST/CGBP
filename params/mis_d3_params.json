@@ -1,0 +1,52 @@
+{
+  "d3_n100": {
+    "optimizer": "sgdm",
+    "drop": 0.0,
+    "dscale": 10.0,
+    "embed_only": false,
+    "cgbp_epoch": 7000,
+    "lr": 0.001,
+    "random_pick": true,
+    "weight_decay": 0.01
+  },
+  "d3_n1000": {
+    "optimizer": "adam",
+    "drop": 0.2,
+    "dscale": 1.0,
+    "embed_only": true,
+    "cgbp_epoch": 8000,
+    "lr": 0.001,
+    "random_pick": true,
+    "weight_decay": 0.0
+  },
+  "d3_n10000": {
+    "optimizer": "sgdm",
+    "drop": 0.0,
+    "dscale": 10.0,
+    "embed_only": false,
+    "cgbp_epoch": 11000,
+    "lr": 0.0005,
+    "random_pick": false,
+    "weight_decay": 0.01
+  },
+  "d3_n100000": {
+    "optimizer": "adam",
+    "drop": 0.3,
+    "dscale": 10.0,
+    "embed_only": true,
+    "cgbp_epoch": 8000,
+    "lr": 0.0005,
+    "random_pick": true,
+    "weight_decay": 0.01
+  },
+  "d3_n1000000": {
+    "optimizer": "adam",
+    "drop": 0.0,
+    "dscale": 10.0,
+    "embed_only": true,
+    "cgbp_epoch": 10000,
+    "lr": 0.005,
+    "random_pick": false,
+    "weight_decay": 0.01
+  }
+}
