@@ -12,18 +12,18 @@ Simply run
 ```
 python xxx.py
 ```
-in this directory and the results will be saved in the [results](https://github.com/PengTao-HUST/CGBP/tree/master/results) folder.
+in this directory and the results will be saved in the [results](https://github.com/PengTao-HUST/CGBP/tree/master/results) folder. Please note that while it is possible to set a random number seed in the program, the results still exhibit inherent randomness. The results you obtain may differ from those in the [results](https://github.com/PengTao-HUST/CGBP/tree/master/results) folder, but typically, there should not be significant differences.
 
 ## Highlighted results
 ### 1. Max cut
-Running [plot_mc.ipynb](https://github.com/PengTao-HUST/CGBP/tree/master/plot_mc.ipynb) you will get the following two graphs comparing the performance (approximate ratio of theoretical values and running time) of CGBP and the original PI-GNN and greedy algorithms.
+Running [plot_mc.ipynb](https://github.com/PengTao-HUST/CGBP/tree/master/plot_mc.ipynb) you will get the following two figures comparing the performance (approximate ratio of theoretical values and running time) of CGBP and the original PI-GNN and greedy algorithms. 
 
 ![figure](https://github.com/PengTao-HUST/CGBP/blob/master/figs/mcut_ratio.png?raw=true)
 
 ![figure](https://github.com/PengTao-HUST/CGBP/blob/master/figs/mcut_time.png?raw=true)
 
 ### 2. Max independent set
-Running [plot_mis.ipynb](https://github.com/PengTao-HUST/CGBP/tree/master/resultsplot_mis.ipynb) you will get the following two graphs comparing the performance (approximate ratio of theoretical values and running time) of CGBP and the original PI-GNN and greedy algorithms.
+Running [plot_mis.ipynb](https://github.com/PengTao-HUST/CGBP/tree/master/resultsplot_mis.ipynb) you will get the following two figures comparing the performance (approximate ratio of theoretical values and running time) of CGBP and the original PI-GNN and greedy algorithms.
 
 ![figure](https://github.com/PengTao-HUST/CGBP/blob/master/figs/mis_ratio.png?raw=true)
 
