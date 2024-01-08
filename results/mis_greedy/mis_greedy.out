@@ -1,0 +1,60 @@
+Creat 3-regular graph with 100 nodes.
+seed 0 | MIS 34 | Time 0.0010
+seed 1 | MIS 37 | Time 0.0008
+seed 2 | MIS 39 | Time 0.0009
+seed 3 | MIS 37 | Time 0.0008
+seed 4 | MIS 38 | Time 0.0008
+seed 5 | MIS 38 | Time 0.0008
+seed 6 | MIS 37 | Time 0.0008
+seed 7 | MIS 38 | Time 0.0008
+seed 8 | MIS 38 | Time 0.0008
+seed 9 | MIS 36 | Time 0.0008
+--------------------------------------------------
+Creat 3-regular graph with 1000 nodes.
+seed 0 | MIS 373 | Time 0.0332
+seed 1 | MIS 380 | Time 0.0164
+seed 2 | MIS 373 | Time 0.0162
+seed 3 | MIS 378 | Time 0.0162
+seed 4 | MIS 375 | Time 0.0160
+seed 5 | MIS 381 | Time 0.0163
+seed 6 | MIS 379 | Time 0.0163
+seed 7 | MIS 368 | Time 0.0160
+seed 8 | MIS 373 | Time 0.0161
+seed 9 | MIS 368 | Time 0.0160
+--------------------------------------------------
+Creat 3-regular graph with 10000 nodes.
+seed 0 | MIS 3734 | Time 1.0247
+seed 1 | MIS 3719 | Time 0.9892
+seed 2 | MIS 3733 | Time 0.9925
+seed 3 | MIS 3766 | Time 1.0248
+seed 4 | MIS 3721 | Time 0.9912
+seed 5 | MIS 3742 | Time 0.9933
+seed 6 | MIS 3746 | Time 1.0267
+seed 7 | MIS 3738 | Time 0.9893
+seed 8 | MIS 3731 | Time 0.9829
+seed 9 | MIS 3715 | Time 1.0174
+--------------------------------------------------
+Creat 3-regular graph with 100000 nodes.
+seed 0 | MIS 37464 | Time 134.6564
+seed 1 | MIS 37466 | Time 134.4070
+seed 2 | MIS 37459 | Time 134.5991
+seed 3 | MIS 37509 | Time 132.5379
+seed 4 | MIS 37471 | Time 133.5759
+seed 5 | MIS 37488 | Time 133.2092
+seed 6 | MIS 37522 | Time 133.3436
+seed 7 | MIS 37557 | Time 133.3643
+seed 8 | MIS 37514 | Time 134.7221
+seed 9 | MIS 37430 | Time 136.2510
+--------------------------------------------------
+Creat 3-regular graph with 1000000 nodes.
+seed 0 | MIS 375189 | Time 30551.0480
+seed 1 | MIS 375029 | Time 31525.1556
+seed 2 | MIS 374855 | Time 30974.2933
+seed 3 | MIS 375184 | Time 30413.8935
+seed 4 | MIS 374891 | Time 29948.8167
+seed 5 | MIS 374738 | Time 30580.4761
+seed 6 | MIS 374995 | Time 30407.2230
+seed 7 | MIS 375104 | Time 30175.1624
+seed 8 | MIS 374835 | Time 29858.6266
+seed 9 | MIS 375130 | Time 29895.0942
+--------------------------------------------------
