@@ -1,7 +1,6 @@
 import networkx as nx
 import numpy as np
 import time
-import logging
 import os
 
 
@@ -31,25 +30,23 @@ def greedy_max_independent_set(graph, max_degree=False):
 
 
 def main():
-    outdir = f'results/mis_greedy/'
+    outdir = f'results/mis_greedy'
     if not os.path.exists(outdir):
         os.makedirs(outdir)
     
-    logging.basicConfig(filename='mis_greedy.out', level=logging.DEBUG)
-    print = logging.debug
-
-    for nnode in [1e2, 1e3, 1e4, 1e5, 1e6]:
-        print(f'Creat 3-regular graph with {int(nnode)} nodes.')
-        # Create a 3-regular graph with the given number of nodes
-        G = nx.random_regular_graph(3, int(nnode), seed=1)
-        # Solve the Maximum Independent Set problem using the greedy algorithm
-        for seed in range(10):
-            np.random.seed(seed)
-            st = time.time()
-            max_independent_set = greedy_max_independent_set(G)
-            et = time.time()
-            print(f'seed {seed} | MIS {len(max_independent_set)} | Time {et-st:.4f}')
-        print('-' * 50)
+    with open(f'{outdir}/mis_greedy.out', 'w') as f:
+        for nnode in [1e2, 1e3, 1e4, 1e5, 1e6]:
+            print(f'Creat 3-regular graph with {int(nnode)} nodes.', file=f, flush=True)
+            # Create a 3-regular graph with the given number of nodes
+            G = nx.random_regular_graph(3, int(nnode), seed=1)
+            # Solve the Maximum Independent Set problem using the greedy algorithm
+            for seed in range(10):
+                np.random.seed(seed)
+                st = time.time()
+                max_independent_set = greedy_max_independent_set(G)
+                et = time.time()
+                print(f'seed {seed} | MIS {len(max_independent_set)} | Time {et-st:.4f}', file=f, flush=True)
+            print('-' * 50, file=f, flush=True)
 
 
 if __name__ == "__main__":
