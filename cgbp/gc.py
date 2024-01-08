@@ -214,9 +214,9 @@ def train_with_chaos(dgl_graph,
             best_epoch = epoch
 
         # early stop
-        if cost_hard == 0 or cost_hard == dgl_graph.num_edges() // 2:
-            print(f'>>> Early stop traning at epoch {epoch} ...')
-            break
+        # if cost_hard == 0 or cost_hard == dgl_graph.num_edges() // 2:
+        #     print(f'>>> Early stop traning at epoch {epoch} ...')
+        #     break
 
         # calculate the gradient
         optimizer.zero_grad()
