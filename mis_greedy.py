@@ -1,6 +1,8 @@
 import networkx as nx
 import numpy as np
 import time
+import logging
+import os
 
 
 # Define a function to solve the Maximum Independent Set problem using the greedy algorithm
@@ -29,6 +31,13 @@ def greedy_max_independent_set(graph, max_degree=False):
 
 
 def main():
+    outdir = f'results/mis_greedy/'
+    if not os.path.exists(outdir):
+        os.makedirs(outdir)
+    
+    logging.basicConfig(filename='mis_greedy.out', level=logging.DEBUG)
+    print = logging.debug
+
     for nnode in [1e2, 1e3, 1e4, 1e5, 1e6]:
         print(f'Creat 3-regular graph with {int(nnode)} nodes.')
         # Create a 3-regular graph with the given number of nodes
